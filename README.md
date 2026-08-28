@@ -1,83 +1,44 @@
 # AI 应用开发学习计划
 
-这是一个面向编程零基础学习者的全日制训练项目。目标是在约 48 周内，以一个持续交付现场螺旋建立 Python 后端、计算机基础、数据与机器学习、LLM 应用工程以及独立交付能力，并从第 36 周开始用真实求职反馈校准训练方向。
+这是一套面向编程新手的全日制训练方案。学习者 22 岁，遥感专业毕业，能借助翻译阅读英文资料；当前按“看过代码，但基本不能独立写”处理。目标是转向后端优先的 AI 应用开发，并最终获得就业与独立交付能力。
 
-本仓库首先治理“学什么、如何验收、如何调整”，再按两周滚动生成课程包。日历只提供节奏，能力证据决定是否晋级。
+计划以 48 周为参考、能力证据为晋级依据。每周投入 40 个有效小时，每两周交付一个能运行的项目增量。时间不够时缩小范围，不降低验收标准。
 
-## 当前状态
+当前基线：v0.14。项目尚未开训，下一步见 [STATUS.md](STATUS.md)。
 
-- 生命周期：总体规划治理
-- 规划版本：v0.13
-- 当前阶段：尚未开始训练
-- 下一里程碑：审阅 v0.13 中文技术写作规范，用P0做样稿并经学习者试读后，再创建阶段合同与第 1–2 周课程包
-- 状态详情：[STATUS.md](STATUS.md)
-- 版本变更：[CHANGELOG.md](CHANGELOG.md)
-- Agent工作规则：[AGENTS.md](AGENTS.md)
+## 从哪里开始
 
-## 学习者入口
+- 学习者：先看[阶段学习地图](stages/README.md)，目前只读 [P0 阶段指南](stages/P0/README.md)。
+- 负责人：先看[项目状态](STATUS.md)，再依据当前阶段的 `stage-control.md` 审阅阶段合同并生成课程包。
+- 课程设计 AI：遵守 [AGENTS.md](AGENTS.md)，不要提前生成全年周任务。
 
-学习者不需要先阅读下面的治理规范。请从[阶段学习地图](stages/README.md)开始；当前只需打开[P0｜先把编程跑起来](stages/P0/README.md)。
+## 文件各管什么
 
-阶段指南用项目和实际动作说明要学什么。任务ID、能力门、证据规则和变更流程主要供负责人、课程设计AI和验收者使用。
+| 文件 | 只回答的问题 |
+|---|---|
+| [项目章程](docs/00-project-charter.md) | 为什么做、受什么限制、怎样算成功？ |
+| [路线图](docs/01-roadmap.md) | 八个阶段分别解决什么问题？ |
+| [能力矩阵](docs/02-capability-matrix.md) | 达到什么水平才能晋级？ |
+| [执行节奏](docs/03-loop-protocol.md) | 每天、每周、每两周怎样推进？ |
+| [AI 使用规则](docs/04-ai-use-policy.md) | 什么情况下可以让 AI 帮到哪一步？ |
+| [治理与变更](docs/05-governance.md) | 谁能改什么，什么时候需要改总体规划？ |
+| [学习架构](docs/06-learning-architecture.md) | 知识、项目和能力怎样相互支撑？ |
+| [质量与证据](docs/07-quality-and-evidence.md) | 什么产出才算有效证据？ |
+| [风险与恢复](docs/08-risk-and-recovery.md) | 计划偏离后怎样恢复？ |
+| [课程范围](docs/10-curriculum-scope.md) | 哪些必学、学到多深、哪些暂不学？ |
+| [并行执行](docs/11-parallel-execution.md) | 哪些内容可以同时做，WIP 如何限制？ |
+| [规划原则](docs/12-planning-style.md) | 课程包按什么原则设计？ |
+| [单次学习流程](docs/13-efficient-learning-process.md) | 一个知识点或任务具体怎样学？ |
+| [项目控制](docs/14-program-control.md) | 当前处于什么状态，证据怎样追溯？ |
+| [中文写作规范](docs/15-chinese-technical-writing.md) | 文档怎样写得详细、简练、准确？ |
 
-## 单一事实源
+历史治理记录在 [docs/09-governance-loop-log.md](docs/09-governance-loop-log.md)，只追加，不作为执行入口。
 
-发生冲突时，按以下优先级解释：
+## 固定边界
 
-1. [项目章程](docs/00-project-charter.md)：目标、范围、约束和成功定义
-2. [规划风格与学习原则](docs/12-planning-style.md)：实践、理论、记录和迭代的总纲
-3. [中文技术内容生成规范](docs/15-chinese-technical-writing.md)：详细、简练、精确、长文逻辑和现实案例规则
-4. [治理与变更控制](docs/05-governance.md)：角色、决策权、版本和变更流程
-5. [项目控制与证据追溯](docs/14-program-control.md)：运行状态、开训门、指标口径和证据索引
-6. [学习架构](docs/06-learning-architecture.md)：知识依赖、迁移和项目层级
-7. [高效学习步骤](docs/13-efficient-learning-process.md)：预试、精准输入、独立重建、迁移和复测
-8. [课程范围地图](docs/10-curriculum-scope.md)：独立于时间的必修、增强和排除边界
-9. [能力矩阵](docs/02-capability-matrix.md)：晋级要求和证据
-10. [质量与证据标准](docs/07-quality-and-evidence.md)：开始、完成、考核和证据有效性
-11. [48 周路线图](docs/01-roadmap.md)：建议节奏和阶段产出
-12. [LOOP 执行协议](docs/03-loop-protocol.md)：日、周、周期执行方法
-13. [AI 使用与考核规则](docs/04-ai-use-policy.md)：AI 辅助边界
-14. [风险与恢复机制](docs/08-risk-and-recovery.md)：偏离后的最小恢复方案
-15. [受控并行执行模型](docs/11-parallel-execution.md)：1＋2并行、依赖、WIP和角色流水线
-16. 课程包与临时任务：服务于上述文件，不得反向修改项目目标
-
-## 工作方式
-
-```text
-总体规划
-  → 学习者阅读当前阶段指南
-  → 负责人从阶段控制表选择任务
-  → 当前阶段合同
-  → 每两周一个纵向切片课程包
-  → P0 开训前通过 S0 正式开训门
-  → 日/周 LOOP 执行
-  → 自动测试 + 无 AI 考核 + 累计面试提取
-  → 证据索引 + 周期复盘
-  → 调整下一课程包
-```
-
-学习者从 [阶段学习地图](stages/README.md)进入。负责人进入当前阶段时，使用同目录的`stage-control.md`和 [阶段合同模板](templates/stage-contract.md)筛选、批准任务；两周执行使用 [课程包模板](templates/course-package.md)。复杂主题使用 [单次学习块模板](templates/learning-session.md)，每日使用 [每日日志模板](templates/daily-log.md)，理论缺口进入 [理论回顾账本](templates/theory-review-ledger.md)，重要证据进入 [能力证据索引](templates/evidence-index.md)，每周使用 [周复盘模板](templates/weekly-review.md)。对总体规划的修改使用 [变更申请模板](templates/change-request.md)。
-
-本轮总体治理过程和停止依据见 [治理LOOP记录](docs/09-governance-loop-log.md)。
-
-## 核心约束
-
-- 计划强度：每周 40 个有效小时，六天半节奏
-- 主环境：Windows + WSL2；云端 Linux 用于部署
-- 主方向：后端优先的 AI 应用工程
-- 主语言：Python；JavaScript/React 只学到足以交付产品
-- 不以遥感作为第一年主线
-- 不以训练基础大模型、竞赛算法、Kubernetes 或多框架堆叠为目标
-- 每日 Git 记录、每周无 AI 考核、每两周纵向切片演示
-- 第 36 周开始试投递，第 48 周完成第一轮训练
-
-## 官方资料入口
-
-- [Python 教程](https://docs.python.org/3/tutorial/)
-- [uv 项目管理](https://docs.astral.sh/uv/concepts/projects/init/)
-- [FastAPI 教程](https://fastapi.tiangolo.com/tutorial/)
-- [PostgreSQL 教程](https://www.postgresql.org/docs/current/tutorial.html)
-- [React 学习文档](https://react.dev/learn)
-- [Docker 入门](https://docs.docker.com/get-started/)
-- [PyTorch 基础](https://docs.pytorch.org/tutorials/beginner/basics/intro)
-- [Hugging Face LLM Course](https://huggingface.co/learn/llm-course/chapter1/1)
+- 主环境：Windows + WSL2；云端 Linux 用于部署。
+- 主语言：Python；React 只学到能完成产品界面。
+- 第一轮不以遥感为主线。
+- 不系统学习大模型训练、竞赛算法、Kubernetes 和多套同类框架。
+- 每日保留 Git 记录；每周安排独立检查；每两周演示一个纵向切片。
+- AI 可以讲解、追问、审查和提供分级提示，不能替学习者完成独立证据。
