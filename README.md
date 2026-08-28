@@ -7,9 +7,9 @@
 ## 当前状态
 
 - 生命周期：总体规划治理
-- 规划版本：v0.3
+- 规划版本：v0.4
 - 当前阶段：尚未开始训练
-- 下一里程碑：审阅 v0.3 治理基线，然后制作第 1–2 周诊断课程包
+- 下一里程碑：审阅 v0.4 治理基线，然后制作第 1–2 周诊断课程包
 - 状态详情：[STATUS.md](STATUS.md)
 
 ## 单一事实源
@@ -17,17 +17,18 @@
 发生冲突时，按以下优先级解释：
 
 1. [项目章程](docs/00-project-charter.md)：目标、范围、约束和成功定义
-2. [治理与变更控制](docs/05-governance.md)：角色、决策权、版本和变更流程
-3. [学习架构](docs/06-learning-architecture.md)：知识依赖、迁移和项目层级
-4. [课程范围地图](docs/10-curriculum-scope.md)：独立于时间的必修、增强和排除边界
-5. [能力矩阵](docs/02-capability-matrix.md)：晋级要求和证据
-6. [质量与证据标准](docs/07-quality-and-evidence.md)：开始、完成、考核和证据有效性
-7. [48 周路线图](docs/01-roadmap.md)：建议节奏和阶段产出
-8. [LOOP 执行协议](docs/03-loop-protocol.md)：日、周、周期执行方法
-9. [AI 使用与考核规则](docs/04-ai-use-policy.md)：AI 辅助边界
-10. [风险与恢复机制](docs/08-risk-and-recovery.md)：偏离后的最小恢复方案
-11. [受控并行执行模型](docs/11-parallel-execution.md)：1＋2并行、依赖、WIP和角色流水线
-12. 课程包与临时任务：服务于上述文件，不得反向修改项目目标
+2. [规划风格与学习原则](docs/12-planning-style.md)：实践、理论、记录和迭代的总纲
+3. [治理与变更控制](docs/05-governance.md)：角色、决策权、版本和变更流程
+4. [学习架构](docs/06-learning-architecture.md)：知识依赖、迁移和项目层级
+5. [课程范围地图](docs/10-curriculum-scope.md)：独立于时间的必修、增强和排除边界
+6. [能力矩阵](docs/02-capability-matrix.md)：晋级要求和证据
+7. [质量与证据标准](docs/07-quality-and-evidence.md)：开始、完成、考核和证据有效性
+8. [48 周路线图](docs/01-roadmap.md)：建议节奏和阶段产出
+9. [LOOP 执行协议](docs/03-loop-protocol.md)：日、周、周期执行方法
+10. [AI 使用与考核规则](docs/04-ai-use-policy.md)：AI 辅助边界
+11. [风险与恢复机制](docs/08-risk-and-recovery.md)：偏离后的最小恢复方案
+12. [受控并行执行模型](docs/11-parallel-execution.md)：1＋2并行、依赖、WIP和角色流水线
+13. 课程包与临时任务：服务于上述文件，不得反向修改项目目标
 
 ## 工作方式
 
@@ -41,7 +42,7 @@
   → 调整下一课程包
 ```
 
-课程包使用 [课程包模板](templates/course-package.md)，每周使用 [周复盘模板](templates/weekly-review.md)。对总体规划的修改使用 [变更申请模板](templates/change-request.md)。
+每日使用 [每日日志模板](templates/daily-log.md)，理论缺口进入 [理论回顾账本](templates/theory-review-ledger.md)，课程包使用 [课程包模板](templates/course-package.md)，每周使用 [周复盘模板](templates/weekly-review.md)。对总体规划的修改使用 [变更申请模板](templates/change-request.md)。
 
 本轮总体治理过程和停止依据见 [治理LOOP记录](docs/09-governance-loop-log.md)。
 
