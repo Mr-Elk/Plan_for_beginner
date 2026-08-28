@@ -8,6 +8,8 @@
 - 阶段合同：[stage-contract.md](stage-contract.md)
 - 首个课程包：[CP-P0-01](course-packs/CP-P0-01.md)
 - 周任务：[第 1 周](weeks/W01.md)、[第 2 周](weeks/W02.md)
+- 开训检查：[start-checklist.md](start-checklist.md)
+- AI 辅导入口：[tutor-guide.md](tutor-guide.md)
 
 ## 进入条件
 
