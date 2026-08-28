@@ -6,11 +6,16 @@
 - Optimize for independent ability, valid evidence, sustainable execution, and employability.
 - Treat planning documents as a controlled system, not as a collection of suggestions.
 
-## Precedence and pruning weights
+## Project impact weights
 
 - External precedence remains: system/developer instructions > current user request > this file.
 - Within this file, use P0 > P1 > P2 > P3 when rules compete.
-- Scores are pruning metadata, not neural-network weights: P0=100, P1=70, P2=40, P3=10.
+- Scores express how strongly content affects project validity, architecture, execution, and presentation; they are not percentages.
+- P0=100: a violation can invalidate evidence, safety, or the project outcome.
+- P1=70: content determines direction, architecture, gates, or governance decisions.
+- P2=40: content shapes execution quality and efficiency without redefining the plan.
+- P3=10: content improves communication and consistency without changing project semantics.
+- Higher-impact content constrains lower-impact content, receives stronger verification, and is preserved longer under context pressure.
 - A more specific nested `AGENTS.md` may override only the work inside its directory.
 
 ## P0 — Safety, truth, and evidence [100]
@@ -37,6 +42,8 @@
 
 ## Context loading weights
 
+- P weights describe project impact; W weights below describe default retrieval priority for a task.
+- A source named as required in the routing table overrides its default W weight.
 - W100: inspect `STATUS.md` before plan-wide, execution-state, or next-step decisions.
 - W70: read only the normative files relevant to the current task using the routing table below.
 - W40: read the matching template and current evidence when creating or evaluating an artifact.
@@ -98,7 +105,7 @@
 
 - This file has a hard limit of 150 physical lines, including blank lines.
 - If an edit exceeds the limit, repair it in the same change before finalizing.
-- Prune in this order: P3 examples, repeated wording, P2 implementation detail, then duplicated P1 context.
+- Preserve decision effect while pruning in this order: P3 examples, repeated wording, P2 implementation detail, then duplicated P1 context.
 - Replace long explanations with links to an existing normative document.
 - Do not remove P0 rules or project invariants without explicit user approval.
 - Never delete project files because this instruction file is too long.
