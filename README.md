@@ -7,9 +7,9 @@
 ## 当前状态
 
 - 生命周期：总体规划治理
-- 规划版本：v0.10
+- 规划版本：v0.11
 - 当前阶段：尚未开始训练
-- 下一里程碑：审阅 v0.10 阶段合同基线，创建P0阶段合同与第 1–2 周诊断课程包并通过S0开训门
+- 下一里程碑：审阅 v0.11 阶段任务基线，依据P0任务清单创建阶段合同与第 1–2 周诊断课程包并通过S0开训门
 - 状态详情：[STATUS.md](STATUS.md)
 - 版本变更：[CHANGELOG.md](CHANGELOG.md)
 - Agent工作规则：[AGENTS.md](AGENTS.md)
@@ -38,17 +38,17 @@
 
 ```text
 总体规划
-  → S0 正式开训门
-  → 阶段主攻能力与闯关标准
+  → P0–P7 阶段任务积压
   → 当前阶段合同
   → 每两周一个纵向切片课程包
+  → P0 开训前通过 S0 正式开训门
   → 日/周 LOOP 执行
   → 自动测试 + 无 AI 考核 + 累计面试提取
   → 证据索引 + 周期复盘
   → 调整下一课程包
 ```
 
-阶段拆解使用 [阶段合同模板](templates/stage-contract.md)，两周执行使用 [课程包模板](templates/course-package.md)，复杂主题使用 [单次学习块模板](templates/learning-session.md)，每日使用 [每日日志模板](templates/daily-log.md)，理论缺口进入 [理论回顾账本](templates/theory-review-ledger.md)，重要证据进入 [能力证据索引](templates/evidence-index.md)，每周使用 [周复盘模板](templates/weekly-review.md)。对总体规划的修改使用 [变更申请模板](templates/change-request.md)。
+全年阶段任务见 [阶段任务目录](stages/README.md)，进入当前阶段时使用 [阶段合同模板](templates/stage-contract.md)筛选和批准任务，两周执行使用 [课程包模板](templates/course-package.md)。复杂主题使用 [单次学习块模板](templates/learning-session.md)，每日使用 [每日日志模板](templates/daily-log.md)，理论缺口进入 [理论回顾账本](templates/theory-review-ledger.md)，重要证据进入 [能力证据索引](templates/evidence-index.md)，每周使用 [周复盘模板](templates/weekly-review.md)。对总体规划的修改使用 [变更申请模板](templates/change-request.md)。
 
 本轮总体治理过程和停止依据见 [治理LOOP记录](docs/09-governance-loop-log.md)。
 

@@ -57,7 +57,7 @@
 |---|---|
 | Goals, constraints, success | `docs/00-project-charter.md`, `docs/10-curriculum-scope.md` |
 | Roadmap or progression | `docs/01-roadmap.md`, `docs/02-capability-matrix.md`, `docs/06-learning-architecture.md` |
-| Stage decomposition | `templates/stage-contract.md`, roadmap, capability matrix, and `docs/14-program-control.md` |
+| Stage decomposition | `stages/README.md`, `templates/stage-contract.md`, roadmap, capability matrix, and `docs/14-program-control.md` |
 | Daily/weekly execution | `docs/03-loop-protocol.md`, `docs/11-parallel-execution.md`, `docs/13-efficient-learning-process.md` |
 | AI tutoring or assessment | `docs/04-ai-use-policy.md`, `docs/07-quality-and-evidence.md` |
 | Governance or change | `docs/05-governance.md`, `docs/14-program-control.md` |
