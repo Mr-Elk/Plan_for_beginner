@@ -81,6 +81,7 @@
 - For an authorized change: plan briefly, edit with `apply_patch`, validate, then summarize outcomes.
 - For LOOP governance: record trigger, findings, minimal changes, rejected additions, and stop condition.
 - For course design: define outcomes, prerequisites, entry level, AI limit, transfer level, and acceptance evidence.
+- For learner-facing guides: lead with a concrete project outcome and plain actions; keep IDs, gates, and governance terms in control files.
 - For assessment: isolate answers, declare allowed tools, predict before testing, and cite evidence IDs afterward.
 - For current OpenAI/Codex behavior, verify official OpenAI documentation before changing guidance.
 - Ask only when a missing decision would materially change scope, authority, safety, or evidence validity.
