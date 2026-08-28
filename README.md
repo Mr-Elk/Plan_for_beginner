@@ -12,6 +12,7 @@
 - 下一里程碑：审阅 v0.7 治理基线，完成第 1–2 周诊断课程包并通过S0开训门
 - 状态详情：[STATUS.md](STATUS.md)
 - 版本变更：[CHANGELOG.md](CHANGELOG.md)
+- Agent工作规则：[AGENTS.md](AGENTS.md)
 
 ## 单一事实源
 
