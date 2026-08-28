@@ -7,9 +7,9 @@
 ## 当前状态
 
 - 生命周期：总体规划治理
-- 规划版本：v0.12
+- 规划版本：v0.13
 - 当前阶段：尚未开始训练
-- 下一里程碑：审阅 v0.12 学习者阶段指南，依据P0控制表创建阶段合同与第 1–2 周课程包并通过S0开训门
+- 下一里程碑：审阅 v0.13 中文技术写作规范，用P0做样稿并经学习者试读后，再创建阶段合同与第 1–2 周课程包
 - 状态详情：[STATUS.md](STATUS.md)
 - 版本变更：[CHANGELOG.md](CHANGELOG.md)
 - Agent工作规则：[AGENTS.md](AGENTS.md)
@@ -26,19 +26,20 @@
 
 1. [项目章程](docs/00-project-charter.md)：目标、范围、约束和成功定义
 2. [规划风格与学习原则](docs/12-planning-style.md)：实践、理论、记录和迭代的总纲
-3. [治理与变更控制](docs/05-governance.md)：角色、决策权、版本和变更流程
-4. [项目控制与证据追溯](docs/14-program-control.md)：运行状态、开训门、指标口径和证据索引
-5. [学习架构](docs/06-learning-architecture.md)：知识依赖、迁移和项目层级
-6. [高效学习步骤](docs/13-efficient-learning-process.md)：预试、精准输入、独立重建、迁移和复测
-7. [课程范围地图](docs/10-curriculum-scope.md)：独立于时间的必修、增强和排除边界
-8. [能力矩阵](docs/02-capability-matrix.md)：晋级要求和证据
-9. [质量与证据标准](docs/07-quality-and-evidence.md)：开始、完成、考核和证据有效性
-10. [48 周路线图](docs/01-roadmap.md)：建议节奏和阶段产出
-11. [LOOP 执行协议](docs/03-loop-protocol.md)：日、周、周期执行方法
-12. [AI 使用与考核规则](docs/04-ai-use-policy.md)：AI 辅助边界
-13. [风险与恢复机制](docs/08-risk-and-recovery.md)：偏离后的最小恢复方案
-14. [受控并行执行模型](docs/11-parallel-execution.md)：1＋2并行、依赖、WIP和角色流水线
-15. 课程包与临时任务：服务于上述文件，不得反向修改项目目标
+3. [中文技术内容生成规范](docs/15-chinese-technical-writing.md)：详细、简练、精确、长文逻辑和现实案例规则
+4. [治理与变更控制](docs/05-governance.md)：角色、决策权、版本和变更流程
+5. [项目控制与证据追溯](docs/14-program-control.md)：运行状态、开训门、指标口径和证据索引
+6. [学习架构](docs/06-learning-architecture.md)：知识依赖、迁移和项目层级
+7. [高效学习步骤](docs/13-efficient-learning-process.md)：预试、精准输入、独立重建、迁移和复测
+8. [课程范围地图](docs/10-curriculum-scope.md)：独立于时间的必修、增强和排除边界
+9. [能力矩阵](docs/02-capability-matrix.md)：晋级要求和证据
+10. [质量与证据标准](docs/07-quality-and-evidence.md)：开始、完成、考核和证据有效性
+11. [48 周路线图](docs/01-roadmap.md)：建议节奏和阶段产出
+12. [LOOP 执行协议](docs/03-loop-protocol.md)：日、周、周期执行方法
+13. [AI 使用与考核规则](docs/04-ai-use-policy.md)：AI 辅助边界
+14. [风险与恢复机制](docs/08-risk-and-recovery.md)：偏离后的最小恢复方案
+15. [受控并行执行模型](docs/11-parallel-execution.md)：1＋2并行、依赖、WIP和角色流水线
+16. 课程包与临时任务：服务于上述文件，不得反向修改项目目标
 
 ## 工作方式
 

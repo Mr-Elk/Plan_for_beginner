@@ -63,6 +63,7 @@
 | Governance or change | `docs/05-governance.md`, `docs/14-program-control.md` |
 | Risk or recovery | `docs/08-risk-and-recovery.md` |
 | Planning style | `docs/12-planning-style.md` |
+| Chinese learner-facing writing | `docs/15-chinese-technical-writing.md` plus the task's normative sources |
 | Course package | `templates/course-package.md` plus its routed normative sources |
 | Evidence decision | `templates/evidence-index.md`, capability matrix, and original artifacts |
 
@@ -81,7 +82,7 @@
 - For an authorized change: plan briefly, edit with `apply_patch`, validate, then summarize outcomes.
 - For LOOP governance: record trigger, findings, minimal changes, rejected additions, and stop condition.
 - For course design: define outcomes, prerequisites, entry level, AI limit, transfer level, and acceptance evidence.
-- For learner-facing guides: lead with a concrete project outcome and plain actions; keep IDs, gates, and governance terms in control files.
+- For learner-facing guides, tasks, and explanations: follow `docs/15-chinese-technical-writing.md`; keep IDs, gates, and governance terms in control files.
 - For assessment: isolate answers, declare allowed tools, predict before testing, and cite evidence IDs afterward.
 - For current OpenAI/Codex behavior, verify official OpenAI documentation before changing guidance.
 - Ask only when a missing decision would materially change scope, authority, safety, or evidence validity.
