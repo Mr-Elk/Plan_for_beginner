@@ -1,9 +1,13 @@
 # P0 阶段控制表
 
 - 参考窗口：第 1–2 周
-- 状态：待合同化，尚未执行
+- 状态：合同、首个课程包和周任务草案已创建，待批准与 S0；尚未执行
 - 目标门：[G0 训练准备门](../../docs/02-capability-matrix.md#g0-训练准备门)
 - 交付：普通 CLI、模型 CLI、无 AI 基线、负荷复盘
+
+- 阶段合同：[stage-contract.md](stage-contract.md)
+- 首个课程包：[CP-P0-01](course-packs/CP-P0-01.md)
+- 周任务：[第 1 周](weeks/W01.md)、[第 2 周](weeks/W02.md)
 
 ## 进入条件
 
