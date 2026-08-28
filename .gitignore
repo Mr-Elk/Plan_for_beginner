@@ -1,0 +1,37 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# Notebooks and data artifacts
+.ipynb_checkpoints/
+data/private/
+artifacts/
+
+# JavaScript
+node_modules/
+.next/
+coverage/
+
+# Editors and operating systems
+.DS_Store
+Thumbs.db
+.idea/
+
+# Defense in depth only; private assessments must live outside learner access
+assessments/private/
